@@ -6,8 +6,8 @@ Key Features: Implementation of PCA and t-SNE for dimensionality reduction. 2D a
 # Installation
 Prerequisites: Python 3.10 or higher pip (Python package manager)
 # Project Details
-Principal Component Analysis (PCA): PCA is used to transform the data into a set of orthogonal components that explain the maximum variance in the data. The project visualizes these components and evaluates the clustering quality after reduction.
+1. Principal Component Analysis (PCA): PCA is used to transform the data into a set of orthogonal components that explain the maximum variance in the data. The project visualizes these components and evaluates the clustering quality after reduction.
 
-t-Distributed Stochastic Neighbor Embedding (t-SNE): t-SNE is a nonlinear dimensionality reduction technique, particularly effective for visualizing data. The project includes hyperparameter tuning for t-SNE and compares its performance against PCA.
+2. t-Distributed Stochastic Neighbor Embedding (t-SNE): t-SNE is a nonlinear dimensionality reduction technique, particularly effective for visualizing data. The project includes hyperparameter tuning for t-SNE and compares its performance against PCA.
 
-Evaluation Metrics: Silhouette Score: Used to evaluate the quality of the clusters formed after dimensionality reduction. The score ranges from -1 to 1, where higher scores indicate better-defined clusters.
+3. Evaluation Metrics: Silhouette Score: Used to evaluate the quality of the clusters formed after dimensionality reduction. The score ranges from -1 to 1, where higher scores indicate better-defined clusters.
